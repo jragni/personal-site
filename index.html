@@ -5,30 +5,79 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Jhensen Ray Agni's Personal Website</title>
+	<link rel="stylesheet" href="style/style.css">
 </head>
 <body>
 	<!-- Navigation bar-->
 	<nav class="navbar">
-		<ul class="navbar-elements">
-			<li><a href="#landing-page-section">Home</a></li>
-			<li><a href="#about-me-section">About Me</a></li>
-			<li><a href="#contact-info-section">Contact</a></li>
+		<ul class="navbar">
+			<li class="nav">
+				<a class="nav-links" href="#landing-page-section">
+					Home
+				</a>
+			</li>
+			
+			<li class="nav">
+				<a class="nav-links" href="#about-me-section">
+					About Me
+				</a>
+			</li>
+			
+			<li class="nav">
+				<a class="nav-links" href="#contact-info-section">
+					Contact
+				</a>
+			</li>
+
 		</ul>
 	</nav>
-	<header class="landing-page" id="landing-page-section"></header>
+
+	<!-- Landing Page -->
+	<header class="landing-page" id="landing-page-section">
+		
+		<!--Profile Image -->
+		<img id="profile-pic" src="images/37388027.jpeg" alt="profile picture">
+
+		<p class="landing-page section-titles">
+			Hello, I'm <span id="greeting">Jhensen Ray Agni</span>
+			<br>
+			Software Engineer
+		</p>
+
+		<!-- Resume -->
+		<h2 class="section-titles" id="resume-download">
+			<a id="resume-title" href="files/JRAgniResumeMar2021.docx.pdf" target="_blank">
+				Resume
+			</a>
+		</h2>
+
+		
+	</header>
+
+
 	<!--TODO add skills section-->
 	<!-- About Me -->
 	<section class="about-me" id="about-me-section">
-		hi
 		<div class="styling-icons"></div>
 		<aside class="about-me__information">
-			<h2 class="section-titles"></h2>
-			<p id="about-me-intro"></p>
-			<p id="about-me-reasons"></p>
+			<h2 class="section-titles">About</h2>
+			<p id="about-me-intro">
+				I am an aspiring software engineer based in Los Angeles, Ca with experience in JavaScript, Ruby, Matlab, and Python. I earned my degree in Mechanical Engineering and worked as a Systems Engineer for the Naval Surface Warfare Center in Corona and more recently as a Mechanical Test Engineer for Honeywell Aerospace.
+			</p>
+			<p id="about-me-reasons">
+				I am passionate about food, fitness, robotics, and engineering! I wanted to combine all my passions using software as a vehicle. Like many others pivoting into the field, I want to pave a path to show others that becoming a software engineer is possible with determination, practice, and patience. 
+			</p>
 		</aside>
 	</section>
 
+	<!--TODO add a reason why-->
 	<!-- Contact Info -->
-	<section class="contact-info" id="contact-info-section"></section>
+	<section class="contact-info" id="contact-info-section">
+		<h2 class="section-titles"></h2>
+		<!-- email icon -->
+		<p>jagni001@ucr.edu</p>
+		<!-- global icon -->
+		<p>Los Angeles</p>
+	</section>
 </body>
 </html>
