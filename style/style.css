@@ -28,7 +28,7 @@ h3{
 .navbar{
 	position:fixed;
 	list-style: none;
-	background-image: url(/images/header.jpg); 
+	background-image: url(/images/nav-bar-img.jpg); 
 	background-repeat: no-repeat;
 	background-size: cover;
 	display: block;
@@ -179,7 +179,7 @@ a, a:visited, a:visited:active{
 	margin-top:0px;
 	margin-bottom: 0px;
 	text-align: center;
-	background-image: url(/images/pic01.jpg);
+	background-image: url(/images/contact-img.jpg);
 	background-repeat: no-repeat;
 	background-size: 100%;
 	color:white;
