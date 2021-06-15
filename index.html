@@ -11,73 +11,92 @@
 	<!-- Navigation bar-->
 	<nav class="navbar">
 		<ul class="navbar">
-			<li class="nav">
-				<a class="nav-links" href="#landing-page-section">
-					Home
-				</a>
+			<li class="nav nav-links" id="site-name">
+				Ragglesoft
 			</li>
-			
-			<li class="nav">
-				<a class="nav-links" href="#about-me-section">
-					About Me
-				</a>
-			</li>
-			
+
 			<li class="nav">
 				<a class="nav-links" href="#contact-info-section">
 					Contact
 				</a>
 			</li>
-
+			<li class="nav">
+				<a class="nav-links" href="#about-me-section">
+					About Me
+				</a>
+			</li>
+			<li class="nav">
+				<a class="nav-links" href="#landing-page-section">
+					Home
+				</a>
+			</li>
 		</ul>
 	</nav>
 
 	<!-- Landing Page -->
 	<header class="landing-page" id="landing-page-section">
-		
+		<div class="landing-page-wrapper" style="margin-top:5rem">
+			
+			<h1 id="greeting-h1" style="margin-top:0px; padding-top:25px">
+				Hello, I'm Jhensen Ray Agni
+			</h1>
+			
+			<h2 id="alternating">Software Engineer </h2>
+			<h3 style="padding-bottom:300px; margin-bottom:0px">Mechanical Engineering B.S.</h3>
+			
+
+		</div>
+	</header>
+
+	<!-- About Me -->
+	<section class="about-me" id="about-me-section">
 		<!--Profile Image -->
 		<img id="profile-pic" src="images/37388027.jpeg" alt="profile picture">
 
-		<p class="landing-page section-titles">
-			Hello, I'm <span id="greeting">Jhensen Ray Agni</span>
+		<aside class="about-me__information">
+			<h2 class="section-titles" id="about-title">About</h2>
+			<p id="about-me-intro" class="about-me">
+				I am an aspiring software engineer based in Los Angeles, Ca with experience in JavaScript, Ruby, Matlab, and Python. I earned my degree in Mechanical Engineering and worked as a Systems Engineer for the Naval Surface Warfare Center in Corona and more recently as a Mechanical Test Engineer for Honeywell Aerospace.
+			</p>
 			<br>
-			Software Engineer
-		</p>
+			<p id="about-me-reasons" class="about-me">
+				I am passionate about food, fitness, robotics, and engineering! I wanted to combine all my passions using software as a vehicle. Like many others pivoting into the field, I want to pave a path to show others that becoming a software engineer is possible with determination, practice, and patience. 
+			</p>
+		</aside>
 
-		<!-- Resume -->
+
+	<!-- Resume -->
+	<span>
 		<h2 class="section-titles" id="resume-download">
 			<a id="resume-title" href="files/JRAgniResumeMar2021.docx.pdf" target="_blank">
 				Resume
 			</a>
 		</h2>
-
-		
-	</header>
-
-
-	<!--TODO add skills section-->
-	<!-- About Me -->
-	<section class="about-me" id="about-me-section">
-		<div class="styling-icons"></div>
-		<aside class="about-me__information">
-			<h2 class="section-titles">About</h2>
-			<p id="about-me-intro">
-				I am an aspiring software engineer based in Los Angeles, Ca with experience in JavaScript, Ruby, Matlab, and Python. I earned my degree in Mechanical Engineering and worked as a Systems Engineer for the Naval Surface Warfare Center in Corona and more recently as a Mechanical Test Engineer for Honeywell Aerospace.
-			</p>
-			<p id="about-me-reasons">
-				I am passionate about food, fitness, robotics, and engineering! I wanted to combine all my passions using software as a vehicle. Like many others pivoting into the field, I want to pave a path to show others that becoming a software engineer is possible with determination, practice, and patience. 
-			</p>
-		</aside>
+	</span>
 	</section>
 
-	<!--TODO add a reason why-->
 	<!-- Contact Info -->
 	<section class="contact-info" id="contact-info-section">
-		<h2 class="section-titles"></h2>
+		<h2 class="section-titles" style="margin-top:0px; padding:25px;">
+			Contact
+		</h2>
+		
+		<!-- Links -->
+		<!-- github link -->
+		<a href="https://www.github.com/jragni" target="_blank">
+			<img class="icon-link" src="images/github.png" alt="github logo" >
+		</a>
+
+		<!-- linkedIn link -->
+		<a href="https://www.linkedin.com/in/jhensenagni" target="_blank">
+			<img src="images/linkedin.png" alt="linkedin logo" class="icon-link">
+		</a>
+
 		<!-- email icon -->
-		<p>jagni001@ucr.edu</p>
+		
+		<h3>jagni001@ucr.edu</h3>
 		<!-- global icon -->
-		<p>Los Angeles</p>
+		<h3>Los Angeles</h3>
 	</section>
 </body>
 </html>
