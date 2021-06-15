@@ -180,7 +180,6 @@ a, a:visited, a:visited:active{
 	margin-bottom: 0px;
 	text-align: center;
 	background-image: url(/images/pic01.jpg);
-	background-blend-mode:luminosity;
 	background-repeat: no-repeat;
 	background-size: 100%;
 	color:white;
